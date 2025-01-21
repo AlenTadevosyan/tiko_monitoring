@@ -4,9 +4,87 @@ import json
 from typing import List, Dict, Set
 from datetime import datetime
 from pathlib import Path
+from collections import defaultdict
 
 from client import HyperliquidClient
 from alerts.console import ConsoleAlertHandler
+
+class OrderAggregator:
+    def __init__(self):
+        self.orders: Dict[str, Dict] = defaultdict(lambda: defaultdict(list))  # coin -> side -> [orders]
+        self.order_ids: Set[str] = set()  # Track order IDs to avoid duplicates
+        
+    def add_order(self, order: Dict):
+        order_id = str(order.get("oid"))
+        if order_id not in self.order_ids:
+            coin = order.get("coin")
+            side = "buy" if order.get("side") == "B" else "sell"
+            self.orders[coin][side].append(order)
+            self.order_ids.add(order_id)
+    
+    def get_aggregated(self) -> List[Dict]:
+        result = []
+        for coin, sides in self.orders.items():
+            for side, orders in sides.items():
+                if not orders:
+                    continue
+                    
+                total_size = sum(float(o.get("sz", 0)) for o in orders)
+                total_volume = sum(float(o.get("sz", 0)) * float(o.get("limitPx", 0)) for o in orders)
+                avg_price = total_volume / total_size if total_size > 0 else 0
+                
+                result.append({
+                    "coin": coin,
+                    "side": side,
+                    "total_size": total_size,
+                    "avg_price": avg_price,
+                    "total_volume": total_volume,
+                    "order_count": len(orders),
+                    "type": orders[0].get("orderType")
+                })
+        return result
+    
+    def clear(self):
+        self.orders.clear()
+        self.order_ids.clear()
+
+class FillAggregator:
+    def __init__(self):
+        self.fills: Dict[str, Dict] = defaultdict(lambda: defaultdict(list))  # coin -> side -> [fills]
+        self.fill_ids: Set[str] = set()  # Track fill IDs to avoid duplicates
+        
+    def add_fill(self, fill: Dict):
+        fill_id = str(fill.get("tid"))
+        if fill_id not in self.fill_ids:
+            coin = fill.get("coin")
+            side = "buy" if fill.get("side") == "B" else "sell"
+            self.fills[coin][side].append(fill)
+            self.fill_ids.add(fill_id)
+    
+    def get_aggregated(self) -> List[Dict]:
+        result = []
+        for coin, sides in self.fills.items():
+            for side, fills in sides.items():
+                if not fills:
+                    continue
+                    
+                total_size = sum(float(f.get("sz", 0)) for f in fills)
+                total_volume = sum(float(f.get("sz", 0)) * float(f.get("px", 0)) for f in fills)
+                avg_price = total_volume / total_size if total_size > 0 else 0
+                
+                result.append({
+                    "coin": coin,
+                    "side": side,
+                    "total_size": total_size,
+                    "avg_price": avg_price,
+                    "total_volume": total_volume,
+                    "fill_count": len(fills)
+                })
+        return result
+    
+    def clear(self):
+        self.fills.clear()
+        self.fill_ids.clear()
 
 class HyperliquidWatcher:
     def __init__(self, addresses: List[str], interval: int, min_trade_value: float, aggregation_window: int):
@@ -26,6 +104,11 @@ class HyperliquidWatcher:
         
         # Track active orders that need status checking
         self.active_orders: Dict[str, Dict[str, str]] = {}  # {order_id: {"address": address, "last_status": status}}
+        
+        # Aggregation buffers
+        self.order_aggregator = OrderAggregator()
+        self.fill_aggregator = FillAggregator()
+        self.last_aggregation_flush = datetime.now().timestamp()
 
     def load_logs(self) -> Dict:
         """Load existing logs or create new if doesn't exist"""
@@ -96,6 +179,35 @@ class HyperliquidWatcher:
         except Exception as e:
             self.logger.error(f"Error logging event: {e}, type: {event_type}, id: {event_id}")
 
+    def format_aggregated_orders(self, agg_orders: List[Dict]) -> List[str]:
+        """Format aggregated orders for display"""
+        messages = []
+        for order in agg_orders:
+            messages.append(
+                f"Token: {order['coin']}, "
+                f"Side: {order['side'].title()}, "
+                f"Total Size: {order['total_size']:.4f}, "
+                f"Avg Price: {order['avg_price']:.4f}, "
+                f"Total Volume: ${order['total_volume']:.2f}, "
+                f"Orders: {order['order_count']}, "
+                f"Type: {order['type']}"
+            )
+        return messages
+
+    def format_aggregated_fills(self, agg_fills: List[Dict]) -> List[str]:
+        """Format aggregated fills for display"""
+        messages = []
+        for fill in agg_fills:
+            messages.append(
+                f"Token: {fill['coin']}, "
+                f"Side: {fill['side'].title()}, "
+                f"Total Size: {fill['total_size']:.4f}, "
+                f"Avg Price: {fill['avg_price']:.4f}, "
+                f"Total Volume: ${fill['total_volume']:.2f}, "
+                f"Fills: {fill['fill_count']}"
+            )
+        return messages
+
     async def process_orders(self, address: str, orders: List[Dict]):
         """Process open orders for an address"""
         try:
@@ -112,9 +224,7 @@ class HyperliquidWatcher:
                 current_order_ids.add(order_id)
                 
                 if self.is_new_event("orders", order_id, timestamp):
-                    await self.alert_handler.send_alert(
-                        f"\nNew open order for {address}:\n{self.format_order(order)}"
-                    )
+                    self.order_aggregator.add_order(order)
                     self.log_event("orders", order_id, timestamp)
                     # Add to active orders for status tracking
                     self.active_orders[order_id] = {"address": address, "last_status": "open"}
@@ -178,16 +288,36 @@ class HyperliquidWatcher:
                     continue
                 
                 if self.is_new_event("fills", fill_id, timestamp):
-                    side = "Bought" if fill.get("side") == "B" else "Sold"
-                    volume = float(fill.get("sz", 0)) * float(fill.get("px", 0))
-                    await self.alert_handler.send_alert(
-                        f"\nNew fill for {address}:\n"
-                        f"{side} {fill.get('sz')} {fill.get('coin')} @ {fill.get('px')} "
-                        f"(${volume:.2f})"
-                    )
+                    self.fill_aggregator.add_fill(fill)
                     self.log_event("fills", fill_id, timestamp)
+                    
         except Exception as e:
             self.logger.error(f"Error processing fills: {e}, address: {address}")
+
+    async def flush_aggregation_buffers(self, address: str):
+        """Flush aggregated orders and fills"""
+        current_time = datetime.now().timestamp()
+        
+        # Only flush if we've passed the aggregation window
+        if current_time - self.last_aggregation_flush >= self.interval:
+            # Process aggregated orders
+            agg_orders = self.order_aggregator.get_aggregated()
+            if agg_orders:
+                await self.alert_handler.send_alert(f"\nAggregated new orders for {address}:")
+                for msg in self.format_aggregated_orders(agg_orders):
+                    await self.alert_handler.send_alert(msg)
+            
+            # Process aggregated fills
+            agg_fills = self.fill_aggregator.get_aggregated()
+            if agg_fills:
+                await self.alert_handler.send_alert(f"\nAggregated fills for {address}:")
+                for msg in self.format_aggregated_fills(agg_fills):
+                    await self.alert_handler.send_alert(msg)
+            
+            # Clear buffers
+            self.order_aggregator.clear()
+            self.fill_aggregator.clear()
+            self.last_aggregation_flush = current_time
 
     async def watch(self):
         """Main monitoring loop"""
@@ -208,6 +338,9 @@ class HyperliquidWatcher:
                     for order_id, data in list(self.active_orders.items()):
                         if data["address"] == address:
                             await self.check_order_status(order_id, address)
+                    
+                    # Flush aggregation buffers if needed
+                    await self.flush_aggregation_buffers(address)
                     
             except Exception as e:
                 self.logger.error(f"Error in watch loop: {e}")

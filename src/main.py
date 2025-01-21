@@ -7,11 +7,8 @@ from monitor import HyperliquidWatcher
 from utils.logging import setup_logging
 
 async def main():
-    # Setup logging with INFO level
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-    )
+    # Setup logging
+    setup_logging()
     
     # Load config
     config = Config()

@@ -504,3 +504,15 @@ Order status change for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
 Order 65428566454 is now canceled
 Token: UNKNOWN
 2025-01-21 22:15:59,625 - monitor - INFO - Removing order 65428566454 from active_orders (final state: canceled)
+2025-01-21 22:42:16,960 - monitor - INFO - Starting open orders monitor for addresses: ['0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB']
+2025-01-21 22:42:25,480 - alerts.console - INFO - 
+Aggregated fills for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+2025-01-21 22:42:25,481 - alerts.console - INFO - Token: BTC, Side: Sell, Total Size: 0.0009, Avg Price: 106547.0000, Total Volume: $99.09, Fills: 1
+2025-01-21 22:42:25,481 - alerts.console - INFO - Token: @107, Side: Sell, Total Size: 7.6400, Avg Price: 23.6740, Total Volume: $180.87, Fills: 1
+2025-01-21 22:42:33,837 - alerts.console - INFO - 
+Aggregated new orders for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+2025-01-21 22:42:33,837 - alerts.console - INFO - Token: @107, Side: Buy, Total Size: 7.6400, Avg Price: 23.4000, Total Volume: $178.78, Orders: 1, Type: Limit
+2025-01-21 22:42:55,712 - alerts.console - INFO - 
+Order status change for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Order 65434106928 is now canceled
+Token: @107
