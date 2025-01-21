@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hyperliquid_monitor"
+version = "0.1.0"
+description = "Hyperliquid monitoring tool"
+requires-python = ">=3.7"
+dependencies = []  # Add your dependencies from requirements.txt here
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"] 

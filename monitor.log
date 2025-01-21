@@ -1,0 +1,506 @@
+2025-01-21 21:41:38,372 - monitor - WARNING - Error loading logs: Expecting value: line 1 column 1 (char 0), resetting
+2025-01-21 21:41:38,372 - monitor - INFO - Starting open orders monitor for addresses: ['0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB']
+2025-01-21 21:41:39,137 - alerts.console - INFO - 
+New open order for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Token: @34, Side: Bid, Size: 16949.15, Price: 0.0059, Volume: $100.00, Type: Limit, Time: 2025-01-21 21:00:12
+2025-01-21 21:41:40,264 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 223.95 @22 @ 0.61631132 ($138.02)
+2025-01-21 21:41:40,265 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 244.07 @22 @ 0.62248757 ($151.93)
+2025-01-21 21:41:40,266 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 242.99 @22 @ 0.62449229 ($151.75)
+2025-01-21 21:41:40,266 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 215.81 @76 @ 0.91576 ($197.63)
+2025-01-21 21:41:40,266 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 107.09 @76 @ 0.91576 ($98.07)
+2025-01-21 21:41:40,267 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.35 @22 @ 0.62463 ($0.22)
+2025-01-21 21:41:40,267 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Sold 300.74 @22 @ 0.62137843 ($186.87)
+2025-01-21 21:41:40,268 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Sold 0.43 @22 @ 0.62091 ($0.27)
+2025-01-21 21:41:40,268 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 21492.88 @34 @ 0.00689703 ($148.24)
+2025-01-21 21:41:40,268 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 96.65 @73 @ 1.0361 ($100.14)
+2025-01-21 21:41:40,268 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 18089.38 @34 @ 0.006918 ($125.14)
+2025-01-21 21:41:40,269 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 82653.06 @34 @ 0.00827569 ($684.01)
+2025-01-21 21:41:40,269 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 165231.0 @17 @ 0.00114917 ($189.88)
+2025-01-21 21:41:40,269 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2138.98 @34 @ 0.00766 ($16.38)
+2025-01-21 21:41:40,270 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 5797.68 @34 @ 0.00766 ($44.41)
+2025-01-21 21:41:40,270 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 10467.94 @34 @ 0.00766 ($80.18)
+2025-01-21 21:41:40,271 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2708.9 @34 @ 0.00766 ($20.75)
+2025-01-21 21:41:40,271 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 114.95 @34 @ 0.00766 ($0.88)
+2025-01-21 21:41:40,272 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 3707.27 @34 @ 0.007637 ($28.31)
+2025-01-21 21:41:40,272 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 26150.62 @34 @ 0.007637 ($199.71)
+2025-01-21 21:41:40,272 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6551.69 @34 @ 0.007637 ($50.04)
+2025-01-21 21:41:40,272 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 7183.33 @34 @ 0.007614 ($54.69)
+2025-01-21 21:41:40,273 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 28593.45 @34 @ 0.007614 ($217.71)
+2025-01-21 21:41:40,273 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6258.94 @34 @ 0.007614 ($47.66)
+2025-01-21 21:41:40,273 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 14163.6 @34 @ 0.007591 ($107.52)
+2025-01-21 21:41:40,273 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 4742.17 @34 @ 0.007591 ($36.00)
+2025-01-21 21:41:40,274 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 9865.82 @34 @ 0.007591 ($74.89)
+2025-01-21 21:41:40,274 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 3126.8 @34 @ 0.007591 ($23.74)
+2025-01-21 21:41:40,274 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.02 @34 @ 0.007591 ($0.00)
+2025-01-21 21:41:40,275 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 19401.81 @34 @ 0.007591 ($147.28)
+2025-01-21 21:41:40,275 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2340.67 @34 @ 0.007568 ($17.71)
+2025-01-21 21:41:40,276 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2062.27 @34 @ 0.007568 ($15.61)
+2025-01-21 21:41:40,276 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 726.08 @34 @ 0.007568 ($5.49)
+2025-01-21 21:41:40,276 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6338.36 @34 @ 0.007568 ($47.97)
+2025-01-21 21:41:40,277 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 1697.64 @34 @ 0.007568 ($12.85)
+2025-01-21 21:41:40,277 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 15000.0 @34 @ 0.007568 ($113.52)
+2025-01-21 21:41:40,277 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 5149.75 @34 @ 0.007568 ($38.97)
+2025-01-21 21:41:40,278 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6306.0 @34 @ 0.007568 ($47.72)
+2025-01-21 21:41:40,278 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 27500.95 @34 @ 0.007568 ($208.13)
+2025-01-21 21:41:40,278 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 110.0 @73 @ 0.90886 ($99.97)
+2025-01-21 21:41:40,278 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 1311.01 @34 @ 0.007591 ($9.95)
+2025-01-21 21:41:40,278 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 31083.93 @34 @ 0.007591 ($235.96)
+2025-01-21 21:41:40,279 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.02 @73 @ 0.90886 ($0.02)
+2025-01-21 21:41:40,279 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 5638.58 @34 @ 0.007568 ($42.67)
+2025-01-21 21:41:40,279 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 23341.28 @34 @ 0.007545 ($176.11)
+2025-01-21 21:41:40,280 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 5973.69 @34 @ 0.007522 ($44.93)
+2025-01-21 21:41:40,280 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 17956.11 @34 @ 0.007522 ($135.07)
+2025-01-21 21:41:40,281 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 857.0 @17 @ 0.0010188 ($0.87)
+2025-01-21 21:41:40,281 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 28194.0 @17 @ 0.0010188 ($28.72)
+2025-01-21 21:41:40,281 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 12937.0 @17 @ 0.0010188 ($13.18)
+2025-01-21 21:41:40,281 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 27276.0 @17 @ 0.0010188 ($27.79)
+2025-01-21 21:41:40,281 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 14283.0 @17 @ 0.0010188 ($14.55)
+2025-01-21 21:41:40,282 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 24383.0 @17 @ 0.0010188 ($24.84)
+2025-01-21 21:41:40,282 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 20385.0 @17 @ 0.0010188 ($20.77)
+2025-01-21 21:41:40,282 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 20772.0 @17 @ 0.0010188 ($21.16)
+2025-01-21 21:41:40,283 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 161.29 @104 @ 1.54617354 ($249.38)
+2025-01-21 21:41:40,284 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 425000.0 @93 @ 0.00046557 ($197.87)
+2025-01-21 21:41:40,284 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 64996.36 @25 @ 0.00275 ($178.74)
+2025-01-21 21:41:40,285 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 3945.0 @93 @ 0.00046626 ($1.84)
+2025-01-21 21:41:40,286 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 81.65 @84 @ 1.23543478 ($100.87)
+2025-01-21 21:41:40,286 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 7561.91 @34 @ 0.007478 ($56.55)
+2025-01-21 21:41:40,287 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 3298.17 @34 @ 0.007478 ($24.66)
+2025-01-21 21:41:40,287 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2667.32 @34 @ 0.007478 ($19.95)
+2025-01-21 21:41:40,287 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.04 @34 @ 0.007478 ($0.00)
+2025-01-21 21:41:40,288 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6286.55 @34 @ 0.007478 ($47.01)
+2025-01-21 21:41:40,288 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 7693.36 @34 @ 0.007478 ($57.53)
+2025-01-21 21:41:40,289 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 205.83 @34 @ 0.007456 ($1.53)
+2025-01-21 21:41:40,289 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.01 @34 @ 0.007456 ($0.00)
+2025-01-21 21:41:40,289 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6499.26 @34 @ 0.007456 ($48.46)
+2025-01-21 21:41:40,290 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2392.14 @34 @ 0.007456 ($17.84)
+2025-01-21 21:41:40,290 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 14444.87 @34 @ 0.007456 ($107.70)
+2025-01-21 21:41:40,290 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 4651.44 @34 @ 0.007434 ($34.58)
+2025-01-21 21:41:40,290 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 5968.42 @34 @ 0.007434 ($44.37)
+2025-01-21 21:41:40,290 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 3548.8 @34 @ 0.007434 ($26.38)
+2025-01-21 21:41:40,290 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6544.59 @34 @ 0.007434 ($48.65)
+2025-01-21 21:41:40,291 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 4867.86 @34 @ 0.007434 ($36.19)
+2025-01-21 21:41:40,291 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 38339.49 @34 @ 0.007434 ($285.02)
+2025-01-21 21:41:40,291 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2413.7 @34 @ 0.007434 ($17.94)
+2025-01-21 21:41:40,292 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 908.1 @34 @ 0.007434 ($6.75)
+2025-01-21 21:41:40,292 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 4359.45 @34 @ 0.007434 ($32.41)
+2025-01-21 21:41:40,292 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.01 @34 @ 0.007434 ($0.00)
+2025-01-21 21:41:40,293 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6344.06 @34 @ 0.007434 ($47.16)
+2025-01-21 21:41:40,293 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 958.77 @34 @ 0.007412 ($7.11)
+2025-01-21 21:41:40,293 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6144.41 @34 @ 0.007412 ($45.54)
+2025-01-21 21:41:40,293 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 7589.08 @34 @ 0.007412 ($56.25)
+2025-01-21 21:41:40,293 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2031.52 @34 @ 0.007412 ($15.06)
+2025-01-21 21:41:40,294 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 47424.6 @34 @ 0.007412 ($351.51)
+2025-01-21 21:41:40,294 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2427.58 @34 @ 0.007412 ($17.99)
+2025-01-21 21:41:40,294 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 4402.18 @34 @ 0.007412 ($32.63)
+2025-01-21 21:41:40,294 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 8767.1 @34 @ 0.0074 ($64.88)
+2025-01-21 21:41:40,295 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 57542.35 @34 @ 0.0074 ($425.81)
+2025-01-21 21:41:40,295 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 4511.07 @34 @ 0.0073 ($32.93)
+2025-01-21 21:41:40,295 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.12 @34 @ 0.0073 ($0.00)
+2025-01-21 21:41:40,295 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 15085.6 @34 @ 0.0073 ($110.12)
+2025-01-21 21:41:40,295 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6778.72 @34 @ 0.0073 ($49.48)
+2025-01-21 21:41:40,296 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 15694.5 @34 @ 0.0073 ($114.57)
+2025-01-21 21:41:40,296 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 13518.75 @34 @ 0.0073 ($98.69)
+2025-01-21 21:41:40,296 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 4430.15 @34 @ 0.0073 ($32.34)
+2025-01-21 21:41:40,296 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 3865.01 @34 @ 0.0073 ($28.21)
+2025-01-21 21:41:40,296 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 10214.71 @34 @ 0.0073 ($74.57)
+2025-01-21 21:41:40,297 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 78008.21 @34 @ 0.0073 ($569.46)
+2025-01-21 21:41:40,297 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 30972.11 @34 @ 0.0071 ($219.90)
+2025-01-21 21:41:40,297 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 11398.0 @34 @ 0.0071 ($80.93)
+2025-01-21 21:41:40,297 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 10254.82 @34 @ 0.0071 ($72.81)
+2025-01-21 21:41:40,297 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 3540.75 @34 @ 0.0071 ($25.14)
+2025-01-21 21:41:40,298 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2552.44 @34 @ 0.0071 ($18.12)
+2025-01-21 21:41:40,298 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 2786.86 @34 @ 0.0071 ($19.79)
+2025-01-21 21:41:40,298 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 744.12 @34 @ 0.0071 ($5.28)
+2025-01-21 21:41:40,299 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 1782.34 @34 @ 0.0071 ($12.65)
+2025-01-21 21:41:40,299 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 5311.84 @34 @ 0.0071 ($37.71)
+2025-01-21 21:41:40,300 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6142.63 @34 @ 0.0071 ($43.61)
+2025-01-21 21:41:40,300 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 31272.85 @34 @ 0.007 ($218.91)
+2025-01-21 21:41:40,301 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 38571.42 @34 @ 0.007 ($270.00)
+2025-01-21 21:41:40,302 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 38571.42 @34 @ 0.007 ($270.00)
+2025-01-21 21:41:40,302 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 39130.43 @34 @ 0.0069 ($270.00)
+2025-01-21 21:41:40,302 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 28074.62 @34 @ 0.0067 ($188.10)
+2025-01-21 21:41:40,303 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 139655.22 @34 @ 0.0067 ($935.69)
+2025-01-21 21:41:40,303 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 40122.31 @34 @ 0.0066 ($264.81)
+2025-01-21 21:41:40,304 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 61253.73 @34 @ 0.0067 ($410.40)
+2025-01-21 21:41:40,304 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 450.9 TRUMP @ 16.0 ($7214.40)
+2025-01-21 21:41:40,304 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Sold 450.9 TRUMP @ 27.7096405 ($12494.28)
+2025-01-21 21:41:40,305 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 43847.98 @34 @ 0.0064 ($280.63)
+2025-01-21 21:41:40,305 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.01 @34 @ 0.0064 ($0.00)
+2025-01-21 21:41:40,305 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 1591.51 @34 @ 0.0064 ($10.19)
+2025-01-21 21:41:40,306 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 10163.17 @34 @ 0.0064 ($65.04)
+2025-01-21 21:41:40,306 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 49982.5 @34 @ 0.0064 ($319.89)
+2025-01-21 21:41:40,307 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 731.45 @34 @ 0.0064 ($4.68)
+2025-01-21 21:41:40,307 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 3761.62 @34 @ 0.0064 ($24.07)
+2025-01-21 21:41:40,307 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 6823.21 @34 @ 0.0064 ($43.67)
+2025-01-21 21:41:40,308 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 746.7 TRUMP @ 40.12322097 ($29960.01)
+2025-01-21 21:41:40,308 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 253.4 TRUMP @ 39.47371823 ($10002.64)
+2025-01-21 21:41:40,308 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 254.0 TRUMP @ 39.42787953 ($10014.68)
+2025-01-21 21:41:40,309 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Sold 1254.1 TRUMP @ 36.04217822 ($45200.50)
+2025-01-21 21:41:40,309 - alerts.console - INFO - 
+New fill for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Bought 0.00093 BTC @ 107013.0 ($99.52)
+2025-01-21 21:41:56,231 - monitor - INFO - Starting open orders monitor for addresses: ['0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB']
+2025-01-21 21:45:02,769 - alerts.console - INFO - 
+New open order for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Token: BTC, Side: Ask, Size: 0.00092, Price: 107000.0, Volume: $98.44, Type: Limit, Time: 2025-01-21 21:43:56
+2025-01-21 21:56:01,675 - monitor - INFO - Starting open orders monitor for addresses: ['0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB']
+2025-01-21 21:57:04,434 - alerts.console - INFO - 
+New open order for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Token: @107, Side: Bid, Size: 4.54, Price: 22.0, Volume: $99.88, Type: Limit, Time: 2025-01-21 21:56:06
+2025-01-21 21:57:06,676 - client - ERROR - API request failed with status 422
+2025-01-21 21:58:08,272 - client - ERROR - API request failed with status 422
+2025-01-21 21:58:10,171 - client - ERROR - API request failed with status 422
+2025-01-21 21:59:11,818 - client - ERROR - API request failed with status 422
+2025-01-21 21:59:13,591 - client - ERROR - API request failed with status 422
+2025-01-21 22:00:06,008 - monitor - INFO - Starting open orders monitor for addresses: ['0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB']
+2025-01-21 22:01:08,871 - alerts.console - INFO - 
+New open order for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Token: @107, Side: Bid, Size: 4.54, Price: 22.0, Volume: $99.88, Type: Limit, Time: 2025-01-21 21:59:56
+2025-01-21 22:02:12,398 - monitor - ERROR - Error checking order status: 'order', order_id: 65425747481
+2025-01-21 22:02:14,218 - monitor - ERROR - Error checking order status: 'order', order_id: 65425747481
+2025-01-21 22:03:15,699 - monitor - ERROR - Error checking order status: 'order', order_id: 65425747481
+2025-01-21 22:03:17,480 - monitor - ERROR - Error checking order status: 'order', order_id: 65425747481
+2025-01-21 22:04:18,989 - monitor - ERROR - Error checking order status: 'order', order_id: 65425747481
+2025-01-21 22:04:20,744 - monitor - ERROR - Error checking order status: 'order', order_id: 65425747481
+2025-01-21 22:06:15,035 - monitor - INFO - Starting open orders monitor for addresses: ['0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB']
+2025-01-21 22:06:15,789 - alerts.console - INFO - 
+New open order for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Token: @107, Side: Bid, Size: 4.54, Price: 22.0, Volume: $99.88, Type: Limit, Time: 2025-01-21 22:05:28
+2025-01-21 22:06:17,634 - monitor - INFO - Order 65426885794 status: current=open, last=open
+2025-01-21 22:07:20,740 - monitor - INFO - Order 65426885794 status: current=open, last=open
+2025-01-21 22:08:23,366 - monitor - INFO - Order 65426885794 status: current=open, last=open
+2025-01-21 22:09:25,931 - monitor - INFO - Order 65426885794 status: current=open, last=open
+2025-01-21 22:10:28,591 - monitor - INFO - Order 65426885794 status: current=open, last=open
+2025-01-21 22:11:04,723 - monitor - INFO - Starting open orders monitor for addresses: ['0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB']
+2025-01-21 22:11:31,360 - monitor - INFO - Order 65426885794 status: current=open, last=open
+2025-01-21 22:12:32,877 - monitor - INFO - Order 65426885794 status: current=canceled, last=open
+2025-01-21 22:12:32,878 - monitor - ERROR - Failed to access coin in status_data: 'order'
+2025-01-21 22:12:32,878 - monitor - ERROR - status_data structure: {
+  "order": {
+    "coin": "@107",
+    "side": "B",
+    "limitPx": "22.0",
+    "sz": "4.54",
+    "oid": 65426885794,
+    "timestamp": 1737493528033,
+    "triggerCondition": "N/A",
+    "isTrigger": false,
+    "triggerPx": "0.0",
+    "children": [],
+    "isPositionTpsl": false,
+    "reduceOnly": false,
+    "orderType": "Limit",
+    "origSz": "4.54",
+    "tif": "Gtc",
+    "cloid": null
+  },
+  "status": "canceled",
+  "statusTimestamp": 1737493874311
+}
+2025-01-21 22:12:32,878 - alerts.console - INFO - 
+Order status change for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Order 65426885794 is now canceled
+Token: UNKNOWN
+2025-01-21 22:12:32,880 - monitor - INFO - Removing order 65426885794 from active_orders (final state: canceled)
+2025-01-21 22:15:21,256 - monitor - INFO - Starting open orders monitor for addresses: ['0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB']
+2025-01-21 22:15:35,848 - alerts.console - INFO - 
+New open order for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Token: @107, Side: Bid, Size: 2.27, Price: 22.0, Volume: $49.94, Type: Limit, Time: 2025-01-21 22:15:16
+2025-01-21 22:15:37,737 - monitor - INFO - Order 65428566454 status: current=open, last=open
+2025-01-21 22:15:45,516 - monitor - INFO - Order 65428566454 status: current=open, last=open
+2025-01-21 22:15:53,023 - monitor - INFO - Order 65428566454 status: current=open, last=open
+2025-01-21 22:15:59,622 - monitor - INFO - Order 65428566454 status: current=canceled, last=open
+2025-01-21 22:15:59,623 - monitor - ERROR - Failed to access coin in status_data: 'order'
+2025-01-21 22:15:59,623 - monitor - ERROR - status_data structure: {
+  "order": {
+    "coin": "@107",
+    "side": "B",
+    "limitPx": "22.0",
+    "sz": "2.27",
+    "oid": 65428566454,
+    "timestamp": 1737494116380,
+    "triggerCondition": "N/A",
+    "isTrigger": false,
+    "triggerPx": "0.0",
+    "children": [],
+    "isPositionTpsl": false,
+    "reduceOnly": false,
+    "orderType": "Limit",
+    "origSz": "2.27",
+    "tif": "Gtc",
+    "cloid": null
+  },
+  "status": "canceled",
+  "statusTimestamp": 1737494139010
+}
+2025-01-21 22:15:59,623 - alerts.console - INFO - 
+Order status change for 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB:
+Order 65428566454 is now canceled
+Token: UNKNOWN
+2025-01-21 22:15:59,625 - monitor - INFO - Removing order 65428566454 from active_orders (final state: canceled)

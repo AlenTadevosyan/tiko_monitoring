@@ -1,0 +1,107 @@
+2025-01-21 22:05:16,093 - __main__ - DEBUG - Checking status for order_id: 65425747481, address: 0xf89d7b9c864f589bbF53a82105107622B35EaA40
+2025-01-21 22:05:17,186 - client - DEBUG - Order status response: {'status': 'unknownOid'}
+2025-01-21 22:05:17,187 - client - ERROR - Unexpected order status format: {'status': 'unknownOid'}
+2025-01-21 22:05:17,188 - __main__ - DEBUG - Received status_data: null
+2025-01-21 22:05:17,188 - __main__ - WARNING - No status data received for order_id: 65425747481
+2025-01-21 22:06:33,471 - __main__ - DEBUG - Checking status for order_id: 65426885794, address: 0xf89d7b9c864f589bbF53a82105107622B35EaA40
+2025-01-21 22:06:34,294 - client - DEBUG - Order status response: {'status': 'unknownOid'}
+2025-01-21 22:06:34,295 - client - ERROR - Unexpected order status format: {'status': 'unknownOid'}
+2025-01-21 22:06:34,296 - __main__ - DEBUG - Received status_data: null
+2025-01-21 22:06:34,296 - __main__ - WARNING - No status data received for order_id: 65426885794
+2025-01-21 22:08:51,748 - __main__ - DEBUG - Checking status for order_id: 65426885794, address: 0xf89d7b9c864f589bbF53a82105107622B35EaA40
+2025-01-21 22:08:51,748 - __main__ - ERROR - Error checking order status: HyperliquidClient.get_order_status() got an unexpected keyword argument 'order_type'
+Traceback (most recent call last):
+  File "/Users/alen/Documents/VEXOR/Codebase/tiko/hyperliquid_monitor/src/monitor.py", line 136, in check_order_status
+    status_data = await self.client.get_order_status(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HyperliquidClient.get_order_status() got an unexpected keyword argument 'order_type'
+2025-01-21 22:08:51,748 - __main__ - ERROR - Order ID: 65426885794, Address: 0xf89d7b9c864f589bbF53a82105107622B35EaA40
+2025-01-21 22:09:15,145 - __main__ - DEBUG - Checking status for order_id: 65426885794, address: 0xf89d7b9c864f589bbF53a82105107622B35EaA40
+2025-01-21 22:09:15,145 - __main__ - ERROR - Error checking order status: HyperliquidClient.get_order_status() got an unexpected keyword argument 'type'
+Traceback (most recent call last):
+  File "/Users/alen/Documents/VEXOR/Codebase/tiko/hyperliquid_monitor/src/monitor.py", line 136, in check_order_status
+    status_data = await self.client.get_order_status(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HyperliquidClient.get_order_status() got an unexpected keyword argument 'type'
+2025-01-21 22:09:15,145 - __main__ - ERROR - Order ID: 65426885794, Address: 0xf89d7b9c864f589bbF53a82105107622B35EaA40
+2025-01-21 22:09:28,966 - __main__ - DEBUG - Checking status for order_id: 65426885794, address: 0xf89d7b9c864f589bbF53a82105107622B35EaA40
+2025-01-21 22:09:29,810 - client - DEBUG - Order status response: {'status': 'unknownOid'}
+2025-01-21 22:09:29,811 - client - ERROR - Unexpected order status format: {'status': 'unknownOid'}
+2025-01-21 22:09:29,811 - __main__ - DEBUG - Received status_data: null
+2025-01-21 22:09:29,811 - __main__ - WARNING - No status data received for order_id: 65426885794
+2025-01-21 22:10:53,507 - __main__ - DEBUG - Checking status for order_id: 65426885794, address: 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB
+2025-01-21 22:10:54,345 - client - DEBUG - Order status response: {'status': 'order', 'order': {'order': {'coin': '@107', 'side': 'B', 'limitPx': '22.0', 'sz': '4.54', 'oid': 65426885794, 'timestamp': 1737493528033, 'triggerCondition': 'N/A', 'isTrigger': False, 'triggerPx': '0.0', 'children': [], 'isPositionTpsl': False, 'reduceOnly': False, 'orderType': 'Limit', 'origSz': '4.54', 'tif': 'Gtc', 'cloid': None}, 'status': 'open', 'statusTimestamp': 1737493528033}}
+2025-01-21 22:10:54,347 - __main__ - DEBUG - Received status_data: {
+  "order": {
+    "coin": "@107",
+    "side": "B",
+    "limitPx": "22.0",
+    "sz": "4.54",
+    "oid": 65426885794,
+    "timestamp": 1737493528033,
+    "triggerCondition": "N/A",
+    "isTrigger": false,
+    "triggerPx": "0.0",
+    "children": [],
+    "isPositionTpsl": false,
+    "reduceOnly": false,
+    "orderType": "Limit",
+    "origSz": "4.54",
+    "tif": "Gtc",
+    "cloid": null
+  },
+  "status": "open",
+  "statusTimestamp": 1737493528033
+}
+2025-01-21 22:10:54,347 - __main__ - INFO - Order 65426885794 status: current=open, last=unknown
+2025-01-21 22:10:54,347 - __main__ - DEBUG - Updating active_orders for 65426885794 with status: open
+2025-01-21 22:14:10,577 - __main__ - DEBUG - Checking status for order_id: 65426885794, address: 0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB
+2025-01-21 22:14:11,331 - client - DEBUG - Order status response: {'status': 'order', 'order': {'order': {'coin': '@107', 'side': 'B', 'limitPx': '22.0', 'sz': '4.54', 'oid': 65426885794, 'timestamp': 1737493528033, 'triggerCondition': 'N/A', 'isTrigger': False, 'triggerPx': '0.0', 'children': [], 'isPositionTpsl': False, 'reduceOnly': False, 'orderType': 'Limit', 'origSz': '4.54', 'tif': 'Gtc', 'cloid': None}, 'status': 'canceled', 'statusTimestamp': 1737493874311}}
+2025-01-21 22:14:11,332 - __main__ - DEBUG - Received status_data: {
+  "order": {
+    "coin": "@107",
+    "side": "B",
+    "limitPx": "22.0",
+    "sz": "4.54",
+    "oid": 65426885794,
+    "timestamp": 1737493528033,
+    "triggerCondition": "N/A",
+    "isTrigger": false,
+    "triggerPx": "0.0",
+    "children": [],
+    "isPositionTpsl": false,
+    "reduceOnly": false,
+    "orderType": "Limit",
+    "origSz": "4.54",
+    "tif": "Gtc",
+    "cloid": null
+  },
+  "status": "canceled",
+  "statusTimestamp": 1737493874311
+}
+2025-01-21 22:14:11,332 - __main__ - INFO - Order 65426885794 status: current=canceled, last=unknown
+2025-01-21 22:14:11,332 - __main__ - DEBUG - Status changed - key: 65426885794_canceled, timestamp: 1737493874311
+2025-01-21 22:14:11,333 - __main__ - ERROR - Failed to access coin in status_data: 'order'
+2025-01-21 22:14:11,333 - __main__ - ERROR - status_data structure: {
+  "order": {
+    "coin": "@107",
+    "side": "B",
+    "limitPx": "22.0",
+    "sz": "4.54",
+    "oid": 65426885794,
+    "timestamp": 1737493528033,
+    "triggerCondition": "N/A",
+    "isTrigger": false,
+    "triggerPx": "0.0",
+    "children": [],
+    "isPositionTpsl": false,
+    "reduceOnly": false,
+    "orderType": "Limit",
+    "origSz": "4.54",
+    "tif": "Gtc",
+    "cloid": null
+  },
+  "status": "canceled",
+  "statusTimestamp": 1737493874311
+}
+2025-01-21 22:14:11,333 - __main__ - INFO - Removing order 65426885794 from active_orders (final state: canceled)

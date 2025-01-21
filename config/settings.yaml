@@ -1,0 +1,14 @@
+monitoring:
+  interval: 5  # seconds
+  min_trade_value: 1000
+  aggregation_window: 60
+
+addresses:
+  - "0xDd4c3d252c29da6F584a9b83D2b61AD82ac92FaB"
+
+alerts:
+  console:
+    enabled: true
+  discord:
+    enabled: false
+    webhook_url: "" 
